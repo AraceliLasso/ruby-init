@@ -62,3 +62,18 @@ result = numA.to_i / numB.to_i
 puts result
 
 
+#? Metodo .next
+#? Suma un valor a la variable, por ejemplo:
+numA = 10.1
+numB = 3.2
+
+result = numA.to_i / numB.to_i
+puts result
+result = result.next
+puts result
+
+#!De no ser enteros, la terminal lanzará error.
+# result = numA / numB
+# puts result
+# result = result.next
+# puts result
