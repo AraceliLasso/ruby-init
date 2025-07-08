@@ -20,4 +20,14 @@ puts greetings
 #Constante: Comienza con una letra mayuscula, es una espacio en la memoria que
 #usaremos para guardar datos que no cambian. 
 
+Greetings = "Hello girl"
+puts Greetings
+#Se enviara por terminal un llamado de atencion por sobrescribir una constante
+Greetings = "Damn girl"
+puts Greetings
+
+#Palabras reservaddas: Son palabras que no podemos usar como nombres de variables
+#o constantes, ya que tienen un significado especial en el lenguaje.
+#Por ejemplo: class, def, puts. En caso de usar palabras reservadas,
+#el sistema las marcara con doferente color en el editor de texto.
 
