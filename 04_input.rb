@@ -13,11 +13,23 @@ puts is_adult
 
 #? Operacion logica: El resultado siempre sera un booleano.
 #Operadores logicos:
->
-<
-==
-!=
->=
-<=
+# >
+# <
+# ==
+# !=
+# >=
+# <=
+
+age = 13
+puts age >= 18
+
 
 #?Operacion aritmetica: El resultado sera un numero.
+age = 21
+is_adult = age >= 18
+puts is_adult
+
+puts "Indica tu edad: "
+age = gets
+is_adult = age.to_i >= 18
+puts is_adult
